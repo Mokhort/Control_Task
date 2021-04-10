@@ -6,6 +6,7 @@ namespace Task2
     class Program
     {
         static async Task add() { 
+
         }
         static async Task delete()
         {
@@ -20,7 +21,7 @@ namespace Task2
             Console.WriteLine("'search2'-search by date birth");
             Console.WriteLine("'search3'-search by date birth of parent");
             Console.WriteLine("'search4'-search by gender");
-            Console.WriteLine("Enter num to continue:");
+            Console.WriteLine("Enter cmd to continue:");
             string cmd = Console.ReadLine();
             switch (cmd) {
                 case "add":
